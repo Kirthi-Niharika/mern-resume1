@@ -1,0 +1,47 @@
+*
+{
+   box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+.main-section
+{
+    background-color: #dddffd;
+    height:100%;
+    width:50vw;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+#primary-name{
+    font-family: "Protest Riot",sans-serif;
+    font-weight: bolder;
+    font-style:normal;
+    margin-bottom: 6px;
+    color:#ec154b;
+    font-size:2rem;
+}
+.primary-tag{
+    font-family: "Raleway",serif;
+    font-optical-sizing:auto;
+    font-weight: 100px;
+    font-style:normal;
+    margin:2px;
+    color: #474747;
+    font-size: 1em;
+}
+#primary-tag-links a{
+    color: #474747;
+}
+.summary{
+    margin: 10px;
+}
